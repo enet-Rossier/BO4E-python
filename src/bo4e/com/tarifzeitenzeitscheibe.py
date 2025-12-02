@@ -19,12 +19,16 @@ if TYPE_CHECKING:
 class TarifzeitenZeitscheibe(COM):
     """
     Eine Zeitscheibe innerhalb der Tarifzeiten mit zugehöriger Gültigkeit und Tarifzeitabschnitten.
+
+    .. raw:: html
+        <object data="../_static/images/bo4e/com/TarifzeitenZeitscheibe.svg" type="image/svg+xml"></object>
+    .. HINT::
+        `TarifzeitenZeitscheibe JSON Schema <https://json-schema.app/view/%23?url=https://raw.githubusercontent.com/BO4E/BO4E-Schemas/{__gh_version__}/src/bo4e_schemas/com/TarifzeitenZeitscheibe.json>`_
     """
 
     typ: Annotated[Optional[Literal[ComTyp.TARIFZEITENZEITSCHEIBE]], Field(alias="_typ")] = (
         ComTyp.TARIFZEITENZEITSCHEIBE
     )
-    """Typ dieser Zeitscheibe - Default 'TARIFZEITENZEITSCHEIBE'"""
 
     gueltigkeit: Optional["Zeitraum"] = None
     """Zeitraum, in dem diese Zeitscheibe gültig ist"""
