@@ -101,7 +101,6 @@ __all__ = [
     "TarifzeitenZeitscheibe",
     "Tarifzeitstufe",
     "Unterschrift",
-    "Verbrauch",
     "Vertragskonditionen",
     "Vertragsteil",
     "VerwendungszweckProMarktrolle",
@@ -307,7 +306,6 @@ from .com.tarifpreisstaffelproort import TarifpreisstaffelProOrt
 from .com.tarifzeitenzeitscheibe import TarifzeitenZeitscheibe
 from .com.tarifzeitstufe import Tarifzeitstufe
 from .com.unterschrift import Unterschrift
-from .com.verbrauch import Verbrauch
 from .com.vertragskonditionen import Vertragskonditionen
 from .com.vertragsteil import Vertragsteil
 from .com.verwendungszweckpromarktrolle import VerwendungszweckProMarktrolle
