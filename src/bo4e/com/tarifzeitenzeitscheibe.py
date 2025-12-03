@@ -24,6 +24,7 @@ class TarifzeitenZeitscheibe(COM):
         <object data="../_static/images/bo4e/com/TarifzeitenZeitscheibe.svg" type="image/svg+xml"></object>
     .. HINT::
         `TarifzeitenZeitscheibe JSON Schema <https://json-schema.app/view/%23?url=https://raw.githubusercontent.com/BO4E/BO4E-Schemas/{__gh_version__}/src/bo4e_schemas/com/TarifzeitenZeitscheibe.json>`_
+
     """
 
     typ: Annotated[Optional[Literal[ComTyp.TARIFZEITENZEITSCHEIBE]], Field(alias="_typ")] = (
