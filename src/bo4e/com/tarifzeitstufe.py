@@ -19,7 +19,7 @@ class Tarifzeitstufe(COM):
     """
     Tarifzeitstufe mit Zuordnung zu einem Zeitraum und einer optionalen Tarifstufe.
 
-        .. raw:: html
+    .. raw:: html
 
         <object data="../_static/images/bo4e/com/Tarifzeitstufe.svg" type="image/svg+xml"></object>
 
