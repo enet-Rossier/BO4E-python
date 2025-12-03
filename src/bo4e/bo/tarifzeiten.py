@@ -21,6 +21,7 @@ class Tarifzeiten(Geschaeftsobjekt):
     Abbildung von Tarifzeiten, wann welche Preise gelten oder unter welchen Bedingungen.
 
     .. raw:: html
+
         <object data="../_static/images/bo4e/bo/Tarifzeiten.svg" type="image/svg+xml"></object>
     .. HINT::
         `Tarifzeiten JSON Schema <https://json-schema.app/view/%23?url=https://raw.githubusercontent.com/BO4E/BO4E-Schemas/{__gh_version__}/src/bo4e_schemas/bo/Tarifzeiten.json>`_
