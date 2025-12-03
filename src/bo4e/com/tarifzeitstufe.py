@@ -22,6 +22,7 @@ class Tarifzeitstufe(COM):
         .. raw:: html
 
         <object data="../_static/images/bo4e/com/Tarifzeitstufe.svg" type="image/svg+xml"></object>
+
     .. HINT::
         `Tarifzeitstufe JSON Schema <https://json-schema.app/view/%23?url=https://raw.githubusercontent.com/BO4E/BO4E-Schemas/{__gh_version__}/src/bo4e_schemas/com/Tarifzeitstufe.json>`_
 
